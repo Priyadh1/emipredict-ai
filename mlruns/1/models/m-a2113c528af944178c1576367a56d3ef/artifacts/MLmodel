@@ -1,0 +1,23 @@
+artifact_path: /content/emipredict-ai/emipredict-ai/mlruns/1/models/m-a2113c528af944178c1576367a56d3ef/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-a2113c528af944178c1576367a56d3ef
+model_size_bytes: 20487
+model_uuid: m-a2113c528af944178c1576367a56d3ef
+prompts: null
+run_id: bd7cd15000d9443c9d136616d4ea3253
+utc_time_created: '2026-08-22 15:22:04.009278'
