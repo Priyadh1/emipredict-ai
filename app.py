@@ -107,6 +107,7 @@ def build_feature_row(inputs, target_columns):
 # SIDEBAR NAVIGATION
 # ============================================================
 st.sidebar.title("💰 EMIPredict AI")
+st.sidebar.caption("Built by Priyadharshini Murugan")
 page = st.sidebar.radio(
     "Navigate",
     ["🔮 Prediction", "📊 EDA Dashboard", "🏆 Model Performance", "🗂️ Admin / Data"]
