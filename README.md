@@ -1,2 +1,3 @@
-APP LINK
-priyadh1-emipredict-ai.streamlit.app
+# EMIPredict AI
+
+🚀 **Live App:** https://priyadh1-emipredict-ai.streamlit.app
